@@ -23,7 +23,7 @@ public class EvenDigitSearch {
 
     static int findNumber(int[] nums){
         int result = 0;
-        for(int i = 0 ; i < nums.length ; i++){
+        for(int i = 0 ; i < nums.size ; i++){
             int digits = Count(nums[i]);
             if(digits%2==0){
                 result++;
